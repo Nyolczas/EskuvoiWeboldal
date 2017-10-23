@@ -24,6 +24,36 @@ h1 {
     -webkit-margin-end: 0px;
 }
 
+h2 {
+    font-size: 3rem;
+    display: block;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;    
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;    
+}
+
+h1, h2, h3, ul, ol, p, img {
+    margin-bottom: 1.5rem;
+}
+
 /* ================================ /MAIN STYLES ================================ */
 
 
@@ -113,6 +143,30 @@ h1 {
     text-align: center;
 }
 
+/* =============== LOCATIONS ================ */
+
+
+.blurb h3 {
+    font-weight: 700;
+}
+
+.blurb img {
+    height: 7.5rem;
+}
+
+.blurb div {
+    font-family: 'Muli', sans-serif;
+}
+
+.blurb::after{
+    content: "";
+    display: block;
+    height: .1875rem;
+    width: 25vw;
+    margin: 1.5rem auto;
+    background-color: #444349;
+}
+
 @media (min-width: 768px) {
     .blurb {
         display: inline-block;
@@ -120,6 +174,46 @@ h1 {
         padding: 1.5rem;
         margin: .5rem;
     }
+
+    .blurb::after {
+        display: none;
+    }
 }
+
+
+/* =============== /LOCATIONS ================ */
+
+/* =============== PROGRAM ================ */
+
+.program{
+    width: 100%;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #d2ba87;
+    font-family: 'Muli', sans-serif;
+}
+
+.program h2 {
+    font-family: 'Great Vibes', cursive;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.program p {
+    font-style: italic;
+}
+
+.program ul {
+    letter-spacing: .025rem;
+}
+
+@media (min-width: 768px) {
+    .program-wrapper {
+        width: 30vw;
+        margin: 0 auto;
+    }
+}
+
+/* =============== /PROGRAM ================ */
 
 /* ================================ /MAIN ================================ */
