@@ -1,0 +1,125 @@
+/* ================================ MAIN STYLES ================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png) repeat center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #444349;
+}
+
+h1, h2 {
+    font-family: 'Great Vibes', cursive;
+}
+
+h1 {
+    display: block;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+/* ================================ /MAIN STYLES ================================ */
+
+
+/* ================================ FEJLÉC ================================ */
+
+.cover {
+    background: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg) no-repeat 70% center/cover;
+    display: table;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.hero-text-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.hero-text {
+    margin: 0 auto;
+    padding: .625rem;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tagline {
+    font-size: 1.25rem;
+    letter-spacing: .15rem;
+}
+
+.tagline::after {
+    display: block;
+    content: "";
+    background-color: #fff;
+    height: 1px;
+    width: 12.52rem;
+    margin: .5rem auto;
+}
+
+.hero-text h1 {
+    font-size: 3.15rem;
+    color: #d2ba87;
+}
+
+.date {
+    font-size: 1.25rem;
+    letter-spacing: .15rem;
+    vertical-align: middle;
+}
+
+.date::before, .date::after {
+    display: inline-block;
+    content: "";
+    background-color: #fff;
+    height: 1px;
+    width: 1.5rem;
+    vertical-align: middle;
+    margin: 0 .5rem;
+}
+
+@media (min-width: 768px) {
+    .hero-text {
+        padding: 1.25rem;
+        width: 50%;
+        border-radius: 4px;
+    }
+    .tagline {
+        text-transform: uppercase;
+    }
+
+    .hero-text h1 {
+        font-size: 7rem;
+        line-height: 10rem;
+        margin: 0;
+    }
+}
+
+
+/* ================================ /FEJLÉC ================================ */
+
+/* ================================ MAIN ================================ */
+
+.locations, .program, .gifts, .faq, .contact {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: .5rem 1rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .blurb {
+        display: inline-block;
+        width: 30%;
+        padding: 1.5rem;
+        margin: .5rem;
+    }
+}
+
+/* ================================ /MAIN ================================ */
