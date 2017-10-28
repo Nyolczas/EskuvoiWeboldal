@@ -54,6 +54,16 @@ h1, h2, h3, ul, ol, p, img {
     margin-bottom: 1.5rem;
 }
 
+a {
+    text-decoration: none;
+    color: #bd806e;
+}
+
+a:hover {
+    color: #eda087;
+    transition: color .15s ease-in-out;
+  }
+
 /* ================================ /MAIN STYLES ================================ */
 
 
@@ -191,11 +201,12 @@ h1, h2, h3, ul, ol, p, img {
     background-color: rgba(0, 0, 0, 0.6);
     color: #d2ba87;
     font-family: 'Muli', sans-serif;
+    line-height: 1.7rem;
 }
 
 .program h2 {
     font-family: 'Great Vibes', cursive;
-    margin-top: 1rem;
+    margin-bottom: 3rem;
     text-align: center;
 }
 
@@ -215,5 +226,97 @@ h1, h2, h3, ul, ol, p, img {
 }
 
 /* =============== /PROGRAM ================ */
+
+/* =============== Gifts ================ */
+
+.gifts h2 {
+    margin-bottom: 2.5rem;
+}
+
+.gifts img {
+    height: 7.5rem;
+}
+
+/* =============== /Gifts ================ */
+
+/* =============== FAQ ================ */
+
+.faq {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #d2ba87;
+    width: 100%;
+    text-align: center;
+    line-height: 1.69rem;
+}
+
+.faq p {
+    font-family: 'Muli', sans-serif;
+    text-align: left;
+}
+
+.faq h3 {
+    line-height: 2.2rem;
+}
+
+.question {
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.answer {
+    margin-top: 0.7rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .question-group {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        padding: 1.5rem;
+        margin: .5rem;
+    }
+
+    .question-group h3 {
+        text-align: left;
+    }
+}
+
+/* =============== /FAQ ================ */
+
+/* =============== CONTACT ================ */
+
+.contact h2 {
+    margin-bottom: 2.5rem;
+}
+
+/* =============== /CONTACT ================ */
+
+/* =============== FOOTER ================ */
+
+footer {
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    display: table;
+    font-size: .875rem;
+}
+
+.footer-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    padding: .5rem 1rem;
+}
+
+@media (min-width: 768px){
+    footer {
+        min-height: 7vh;
+    }
+}
+
+/* =============== /FOOTER ================ */
 
 /* ================================ /MAIN ================================ */
